@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Atividade 1
+        var palavra = prompt("Digite a palavra: ")
+        function vogal(palavra){
+            let contador = 0
+            for(letra of palavra){
+                if(letra == 'a'||letra == 'e'||letra == 'i'||letra == 'o'||letra == 'u') {
+                    contador +=1
+                }
+            }
+            return contador
+        }
+        console.log(vogal(palavra))
+    </script>
+</body>
+</html>
